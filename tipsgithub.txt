@@ -10,7 +10,7 @@ Push ke GITHUB dengan Repository yang sama tapi beda komputer:
 (5) git push -f origin master
 
 
-Delete folder di GITHUB:
+Delete folder di Repository GITHUB:
 (1) git rm -r --cached myFolder
 
 (2) git commit -m "Remove duplicated directory"
@@ -18,13 +18,13 @@ Delete folder di GITHUB:
 (3) git push origin <your-git-branch> (typically 'master', but not always)
 
 
-Update data dari Repository GITHUB tanpa tiban data (append files):
+Update data dari Repository GITHUB ke Folder Local di PC/Laptop tanpa tiban data (append files):
 (1) git reset --hard origin/master
 
 (2) git fetch --all
 
 
-Update data dari Repository GITHUB dengan tiban data (overwrite all files):
+Update data dari Repository GITHUB ke Folder Local di PC/Laptop dengan tiban data (overwrite all files):
 (1) git reset --hard origin/master
 
 (2) git pull origin master
