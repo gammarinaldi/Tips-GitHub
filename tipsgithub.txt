@@ -1,4 +1,4 @@
-Push ke GITHUB Repository sama tapi beda komputer:
+Push ke GITHUB dengan Repository yang sama tapi beda komputer:
 (1) rm -rf .git/
 
 (2) git init
