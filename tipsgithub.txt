@@ -18,13 +18,13 @@ Delete folder di GITHUB:
 (3) git push origin <your-git-branch> (typically 'master', but not always)
 
 
-Update data dari Repository tanpa tiban data (append files):
+Update data dari Repository GITHUB tanpa tiban data (append files):
 (1) git reset --hard origin/master
 
 (2) git fetch --all
 
 
-Update data dari Repository dengan tiban data (overwrite all files):
+Update data dari Repository GITHUB dengan tiban data (overwrite all files):
 
 (1) git reset --hard origin/master
 
