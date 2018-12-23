@@ -1,0 +1,18 @@
+Push ke GITHUB Repository sama tapi beda komputer:
+(1) rm -rf .git/
+
+(2) git init
+
+(3) git remote add origin https://repository.remote.url
+
+(4) git commit -m “Commit message”
+
+(5) git push -f origin master
+
+
+Delete folder di GITHUB:
+(1) git rm -r --cached myFolder
+
+(2) git commit -m "Remove duplicated directory"
+
+(3) git push origin <your-git-branch> (typically 'master', but not always)
