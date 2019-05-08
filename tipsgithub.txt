@@ -34,3 +34,10 @@ Menghapus remote repository origin:
 
 Menghapus remote repository heroku:
 (1) git remote rm heroku
+
+Cara switch branch:
+(1) git reset --hard origin/<branch>
+
+(2) git pull origin <branch>
+
+(3) git checkout <branch>
